@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kontakt.Application\Kontakt.Application.csproj" />
+    <ProjectReference Include="..\Kontakt.Contracts\Kontakt.Contracts.csproj" />
+    <ProjectReference Include="..\Kontakt.Infrastructure\Kontakt.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
