@@ -206,7 +206,20 @@ GET {{host}}/contacts/{{id}}
 #### Request
 
 ```js
-UPDATE {{host}}/contacts/{{id}}
+PUT {{host}}/contacts/{{id}}
+```
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Cena",
+  "email": "johncena@example.com",
+  "password": "WhyIsTherePasswordFieldInContacts?",
+  "category": "private",
+  "subcategory": "friend",
+  "phoneNumber": 111222333,
+  "birthDate": "1977-04-23"
+}
 ```
 
 ```json
